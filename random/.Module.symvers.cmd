@@ -1,0 +1,1 @@
+cmd_/home/parallels/osc_final/random/Module.symvers := sed 's/\.ko$$/\.o/' /home/parallels/osc_final/random/modules.order | scripts/mod/modpost    -o /home/parallels/osc_final/random/Module.symvers -e -i Module.symvers   -T -

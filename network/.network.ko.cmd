@@ -1,0 +1,1 @@
+cmd_/home/parallels/osc_final/network/network.ko := ld -r -EL  -maarch64linux -z norelro --build-id=sha1  -T scripts/module.lds -o /home/parallels/osc_final/network/network.ko /home/parallels/osc_final/network/network.o /home/parallels/osc_final/network/network.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_/home/parallels/osc_final/hello/mymodule.ko := ld -r -EL  -maarch64linux -z norelro --build-id=sha1  -T scripts/module.lds -o /home/parallels/osc_final/hello/mymodule.ko /home/parallels/osc_final/hello/mymodule.o /home/parallels/osc_final/hello/mymodule.mod.o;  true

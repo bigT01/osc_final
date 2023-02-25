@@ -1,0 +1,1 @@
+cmd_/home/parallels/osc_final/rand.ko := ld -r -EL  -maarch64linux -z norelro --build-id=sha1  -T scripts/module.lds -o /home/parallels/osc_final/rand.ko /home/parallels/osc_final/rand.o /home/parallels/osc_final/rand.mod.o;  true
